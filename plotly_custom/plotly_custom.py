@@ -1,9 +1,6 @@
 import pandas as pd
 import plotly.graph_objects as go
-try:
-    import _error_handling as eh
-except ModuleNotFoundError:
-    import plotly_custom._error_handling as eh
+from . import _error_handling as eh
 
 class scatter:
     # ------------------------------------------------------------------------------------------
